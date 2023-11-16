@@ -1,0 +1,65 @@
+name: rush_alert
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/logo1.png"
+  min_sdk_android: 2
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.2.4
+  change_app_package_name: ^1.1.0
+  http: ^1.1.0
+  pin_code_fields: ^8.0.1
+  location: ^5.0.3
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  http_parser: ^4.0.2
+  provider: ^6.0.5
+  url_launcher: ^6.1.11
+  flutter_launcher_icons: ^0.13.1
+  google_maps_flutter: ^2.5.0
+  shared_preferences: ^2.2.2
+  connectivity_plus: ^5.0.1
+
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.6.3
+  firebase_app_check: ^0.1.5+2
+  firebase_messaging: ^14.6.7
+  flutter_local_notifications: ^9.8.0+1
+  country_code_picker: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/icons/
+     - assets/logo/
+
+  fonts:
+     - family: Helvetica
+       fonts:
+         - asset: assets/fonts/Helvetica-Black.otf
+         - asset: assets/fonts/Helvetica-Bold.otf
+         - asset: assets/fonts/Helvetica-Medium.otf
+         - asset: assets/fonts/Helvetica-Regular.otf

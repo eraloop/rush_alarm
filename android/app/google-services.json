@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "43287869790",
+    "project_id": "rush-alert-9e622",
+    "storage_bucket": "rush-alert-9e622.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43287869790:android:ea4c92e4a6cfb411dc77cf",
+        "android_client_info": {
+          "package_name": "com.rushalert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC-WZ_seX2l9QxsVkEEErJ1KXR0rK76BA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
